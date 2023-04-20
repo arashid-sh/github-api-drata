@@ -1,0 +1,28 @@
+{
+  "name": "drata-assignment2",
+  "version": "1.0.0",
+  "description": "Using a mock server for different Github APIs around the user object",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arashid-sh/github-api-drata.git"
+  },
+  "author": "Affan Rashid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arashid-sh/github-api-drata/issues"
+  },
+  "homepage": "https://github.com/arashid-sh/github-api-drata#readme",
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "jest-html-reporter": "^3.7.1",
+    "prettier": "2.8.7",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
